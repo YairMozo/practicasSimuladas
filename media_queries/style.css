@@ -1,0 +1,18 @@
+
+.navbar{
+    display: flex;
+    padding: 4px;
+    margin-right: 10px;
+}
+.navbar p{
+    margin-right: 10px;
+}
+.navbarf{
+    display: flex;
+    padding: 4px;
+    margin-right: 10px;
+}
+
+.navbarf p{
+    margin-right: 10px;
+}

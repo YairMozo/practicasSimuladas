@@ -1,25 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Practicás Simuladas Unad</title>
-    <link rel="stylesheet" href="./style.css">
- </head>
- <body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <header>
-         <h1>Media Queries</h1>
-        <nav></nav>
+      <h1>Media Queries</h1>
+      <nav class="navbar">
+         <p>Inicio</p>
+         <p>Media Queries</p>
+         <p>Mockup</p>
+         <p>Acerca de.</p>
+      </nav>
     </header>
     <main>
       <section>
-         <img src="./img/MEDIA-QUERY.jpg" alt="Imagen de un diseño responsive">
+        <h2>¿Qué es una Media Query?</h2>
+        <p>
+          Una Media Query es una regla o conjunto de reglas que se introducen en
+          una hoja de estilo CSS con el objetivo de definir propiedades
+          específicas para distintos tipos de medios. Por ejemplo, con una Media
+          Query podemos especificar el ancho y el alto de un contenido, de
+          manera que este se adapte a los límites de una impresora sin tener que
+          cambiar el contenido original.
+        </p>
+        <h2>Las Media Queries y el diseño responsive</h2>
+        <p>
+          Aunque las Media Queries ya se plantearon en la primera versión de CSS
+          allá por el año 1994, no fue hasta 2012 cuando los navegadores los
+          incorporaron como estándar con la llegada de CSS3 y la recomendación
+          del consorcio W3C. Desde un principio se planteó la necesidad de
+          encontrar una forma de representar el contenido HTML en pantallas con
+          diferentes resoluciones, siempre desde el punto de vista del cliente.
+          El problema se iba agravando a medida que se iban introduciendo
+          pantallas más modernas y con resoluciones mayores, mientras que otros
+          usuarios seguían con resoluciones antiguas.
+        </p>
+        <h2>Tipos de Medios</h2>
+        <p>
+          En la versión CSS3, podemos agregar distintos valores para seleccionar
+          el tipo de medio al que se dirige la regla especificada en una Media
+          Query. Los valores que podemos definir son: 
+          <ol>
+            <li> all: Se utiliza para todos los tipos de medios o dispositivos.</li>
+            <li> print: Se utiliza para impresoras</li>
+            <li> screen: Se utiliza para pantallas de ordenador, tablets,teléfonos móviles, etc…</li>
+            <li>speech: Se utiliza para lectores de pantalla,generalmente utilizados por personas con discapacidad visual.</li>
+          </ol>         
+        </p> 
+        <img src="./img/MEDIA-QUERY.jpg" alt="Imagen de un diseño responsive"/>
       </section>
-
     </main>
     <footer>
-        
+
+      <nav class="navbarf">
+         <p>Inicio</p>
+         <p>Media Queries</p>
+         <p>Mockup</p>
+         <p>Acerca de.</p>
+      </nav>
     </footer>
- </body>
+  </body>
 </html>
